@@ -31,8 +31,8 @@ copy .env.example .env
 ```
 Edit `.env` to add your actual Google Gemini API key:
 ```env
-GEMINI_API_KEY=YOUR_ACTUAL_GEMINI_API_KEY
-GEMINI_BASE_URL=https://generativelanguage.googleapis.com
+API_KEY=YOUR_ACTUAL_API_KEY
+BASE_URL=https://generativelanguage.googleapis.com
 GEMINI_MODEL=gemini-2.5-flash
 SECRET_KEY=supersecretjwtkey_change_in_production_12345
 ALGORITHM=HS256
