@@ -1,0 +1,11 @@
+.env
+*.db
+*.sqlite
+data/
+__pycache__/
+*.pyc
+.pytest_cache/
+app/ml/*.pkl
+faiss_index/
+venv/
+.venv/
